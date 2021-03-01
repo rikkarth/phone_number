@@ -13,5 +13,5 @@ function createPhoneNumber(numbers = []){
         third_wave.push(numbers[i]);
     }
     
-    return `(${first_wave.join('')}) ` + `${second_wave.join('')}-` + `${third_wave.join('')}`;
+    return `(${first_wave.join('')}) ${second_wave.join('')}-${third_wave.join('')}`;
   }
